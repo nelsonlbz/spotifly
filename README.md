@@ -78,11 +78,11 @@ At the end of the execution, the script will generate a download report with sta
 
 The download report includes the following columns:
 
-Spotify_track: The track name from Spotify.
-Downloaded_file: The downloaded file name.
-Downloaded_date: The date and time of the download.
-Bitrate: The bitrate of the downloaded track.
-dl_file_duration: The duration of the downloaded track.
+- Spotify_track: The track name from Spotify.
+- Downloaded_file: The downloaded file name.
+- Downloaded_date: The date and time of the download.
+- Bitrate: The bitrate of the downloaded track.
+- dl_file_duration: The duration of the downloaded track.
 
 ## Note
 
