@@ -2,7 +2,7 @@
 
 Welcome to Spotify Playlist Downloader! This is a Python script that allows you to download tracks from your Spotify playlist using the Spotify API and a web scraping technique.
 
-# Note: Legal and Ethical Use of the Script
+## Note: Legal and Ethical Use of the Script
 
 We want to emphasize that the Spotify Playlist Downloader script has been created for educational purposes only. We strongly discourage any illegal activities related to copyright infringement, unauthorized downloading, or distribution of copyrighted content.
 
