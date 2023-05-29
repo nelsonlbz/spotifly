@@ -1,0 +1,4 @@
+spotipy==2.20.0
+selenium==4.5.0
+beautifulsoup4==4.11.1
+music-tag==0.4.3
