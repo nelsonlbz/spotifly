@@ -6,7 +6,6 @@ import string
 import time
 import csv
 import os
-import re
 
 # * ====== SELENIUM IMPORT ====== *
 from selenium.webdriver.support import expected_conditions as EC
@@ -24,8 +23,6 @@ from modules import get_config
 from modules import get_args
 from modules import renamer
 from modules import spotify
-from modules import get_track_check
-from modules import get_report
 
 # * ====== LOAD CONFIG ====== *
 CONFIG = get_config.read_json('config.json')['config']
