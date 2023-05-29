@@ -1,11 +1,13 @@
 {
   "config": {
-    "CLIENT_ID": "__YOUR_SPOTIFY_CLIENT_TOKEN_ID__",
-    "CLIENT_SECRET": "__YOUR_SPOTIFY_CLIENT_SECRET_TOKEN__",
+    "CLIENT_ID": "ab20eea8ebf547dc813eb286de73ef38",
+    "CLIENT_SECRET": "590a759bbcdf4dc09029e825b93fd6e9",
     "URI": "http://localhost:8888/callback",
-    "PLAYLIST_LINK": ["__PUT_YOUR_PLAYLIST_URL__"],
-    "DRIVER_PATH": "__PUT_YOUR_DRIVER_PATH__",
-    "DOWNLOAD_PATH": "__PUT_YOUR_DOWNLOAD_FOLDER_PATH__",
+    "PLAYLIST_LINK": [
+      "https://open.spotify.com/playlist/27ZhGKOthkWTSyB0RBcuHr?si=b72c7ea7554845f0"
+    ],
+    "DRIVER_PATH": "/Users/nelson/Repositories/PROJECTS/PERSO/spotifly/chromedriver",
+    "DOWNLOAD_PATH": "/Users/Nelson/Playlists/",
     "SLEEP_TIME": 10
   }
 }

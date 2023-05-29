@@ -1,0 +1,10 @@
+/token.txt
+/old
+/.vscode
+modules/_pycache_
+modules/_Pycache_
+/chromedriver
+/config.json
+/.venv_spot
+config.json
+/modules/__pycache__

@@ -33,7 +33,6 @@ params = {'CLIENT_ID': CONFIG['CLIENT_ID'],
           'URI': CONFIG['URI'],
           'PLAYLIST_LINK': CONFIG['PLAYLIST_LINK'],
           'DRIVER_PATH': CONFIG['DRIVER_PATH'],
-          'WEBSITE': CONFIG['WEBSITE'],
           'DOWNLOAD_PATH': CONFIG['DOWNLOAD_PATH'],
           'logger': get_logger.logger_initializer()}
 
@@ -43,6 +42,7 @@ args = get_args.quick_initialize_args(**params)
 def main(args):
     start_time = time.time()
     EXTENSION = "myfreemp3.vip .mp3"
+    WEBSITE = "https://myfreemp3juices.cc/"
     DOWNLOAD_URL = "https://speed.idmp3s.com/"
     
     # * ====== REPORT INITIALIZATION ====== *
@@ -117,7 +117,7 @@ def main(args):
             driver = scraper_init.get_driver(args.DRIVER_PATH)
             
             # (2) Open the website with the driver 
-            driver.get(args.WEBSITE)
+            driver.get(WEBSITE)
             
             # (3) Check if the website loaded successfully by trying to parse the search bar 
             try:
@@ -230,7 +230,6 @@ def main(args):
     ## -------> Part IV: Statistics
 
     # * ====== DOWNLOAD STATISTICS ====== *
-        
     args.logger.info('======> DOWNLOAD REPORT <======')
     args.logger.info(f'Tracks downloaded: {downloaded_tracks}')              
     args.logger.info(f'Tracks not founded: {not_founded_tracks}')
