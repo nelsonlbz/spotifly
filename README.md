@@ -45,7 +45,7 @@ pip install -r requirements.txt
     "CLIENT_ID": "__YOUR_SPOTIFY_CLIENT_TOKEN_ID__",
     "CLIENT_SECRET": "__YOUR_SPOTIFY_CLIENT_SECRET_TOKEN__",
     "URI": "http://localhost:8888/callback",
-    "PLAYLIST_LINK": "__PUT_YOUR_PLAYLIST_URL__",
+    "PLAYLIST_LINK": ["__PUT_YOUR_PLAYLIST_URL__"],
     "DRIVER_PATH": "__PUT_YOUR_DRIVER_PATH__",
     "DOWNLOAD_PATH": "__PUT_YOUR_DOWNLOAD_FOLDER_PATH__"
   }
@@ -86,6 +86,6 @@ The download report includes the following columns:
 
 ## Note
 
-This script relies on web scraping techniques to download tracks from Spotify. It may be subject to potential changes in the Spotify API or website source code.
+This script relies on web scraping techniques to download tracks from Spotify. It may be subject to potential changes in the Spotify API or website code source.
 
 Have Fun ;)
